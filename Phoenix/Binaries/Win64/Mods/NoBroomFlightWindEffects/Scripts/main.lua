@@ -26,7 +26,7 @@ RegisterHook("/Script/Engine.PlayerController:ClientRestart", function(Context, 
 		shouldInitTheMod = false
 
 		print("NoBroomFlightWindEffects hooked on load/reload succesfully!")
-
-		NoBroomFlightWindEffects()
 	end
+
+	NoBroomFlightWindEffects()
 end)
