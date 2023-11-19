@@ -10,6 +10,8 @@ function NoBroomFlightWindEffects()
 	end
 	print("NoBroomFlightWindEffects is On!")
 	broomflightwind.bVisible = false
+	broomflightwind.bEnabled = false
+	broomflightwind.bHiddenInGame = true
 end
 
 local shouldInitTheMod = false
